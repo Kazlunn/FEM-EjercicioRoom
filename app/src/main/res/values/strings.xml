@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EjercicioRoom</string>
+    <string name="button_text_delete_all">Borrar Datos</string>
 </resources>

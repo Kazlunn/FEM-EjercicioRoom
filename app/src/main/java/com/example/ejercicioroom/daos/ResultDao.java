@@ -19,7 +19,7 @@ public interface ResultDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     long[] insert(Result... results);
 
-    @Delete
-    int[] deleteAll();
+    @Query("DELETE FROM " + Result.TABLE_NAME)
+    void deleteAll();
 
 }
