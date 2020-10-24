@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = Result.TABLE_NAME)
 public class Result {
 
-    protected final static String TABLE_NAME = "results";
+    public final static String TABLE_NAME = "results";
 
     @PrimaryKey(autoGenerate = true)
     private int uid;
